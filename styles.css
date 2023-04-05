@@ -1,0 +1,26 @@
+#kot {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("kot.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+}
+@keyframes top-an {
+    100% {
+        transform: translateY(-50%);
+    }
+    0% {
+        transform: translateY(50%);  
+    }
+}
+#dog {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 400px;
+}
